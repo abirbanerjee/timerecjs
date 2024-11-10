@@ -1,5 +1,5 @@
 import sqlite3 from "sqlite3";
-const db = new sqlite3.Database("projects");
+const db = new sqlite3.Database("projects.js");
 
 export default {
   getProjectDetails: async function getProjectDetails(companyName, monthYear) {
